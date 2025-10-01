@@ -19,7 +19,9 @@ public class Main extends ConsoleProgram {
 
         // Example program: prompt user and print greeting
         String name = readLine("Enter your name: ");
+        String age = readLine("What is your age?");
         println("Hello, " + name + "!");
+        System.out.println("You are the youngest person ever!");
 
         // === END OF YOUR CODE ===
     }
